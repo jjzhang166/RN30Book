@@ -1,5 +1,6 @@
 # Summary
 
+* [前言](README.md)
 * [第一天 React Native特点](chapter1.md)
 * [第二天 环境搭建](chapter2.md)
 * [第三天 状态机属性和生命周期](chapter3.md)
@@ -28,5 +29,4 @@
 * [第二十六天 常用框架的介绍](chapter26.md)
 * [第二十七天 打包发布](chapter27.md)
 * [待定](chapter_0.md)
-
 
