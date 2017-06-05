@@ -3,7 +3,7 @@
 * [前言](README.md)
 * [第一天 React Native特点](chapter1.md)
 * [第二天 环境搭建](chapter2.md)
-* [第三天 状态机属性和生命周期](chapter3.md)
+* [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
 * [第五天 FlexBox布局](chapter5.md)
 * [第六天 Text组件](chapter6.md)
