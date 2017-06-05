@@ -1,3 +1,6 @@
-# My Awesome Book
+# RN30天入门到精通
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+预览地址 http://rn30.520wcf.com
+
+
+
