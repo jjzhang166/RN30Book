@@ -7,8 +7,9 @@ React Native 采用 JSX 语法，前面我们介绍过，就是基于 JavaScript
 本书内容由浅入深，如果读者编程基础薄弱，不建议跳跃式阅读。建议初次学习编程的同学，不要眼高手低，书中的案例都尝试地敲一遍。
 
 React Native官网提供了较全面的文档，读者可以结合官网文档进行学习，地址如下：
-英文：http://facebook.github.io/react-native/
-中文: http://reactnative.cn/
+
+* 英文：http://facebook.github.io/react-native/
+* 中文: http://reactnative.cn/
 
 
 #总结
