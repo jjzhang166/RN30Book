@@ -15,7 +15,8 @@ React Native 使用 JSX 语法开发，所谓 JSX，是 JavaScript 的语法扩�
 ##1.2.3 React Native的扩展性
 
 React Native扩展性还非常强，可以直接调用原生代码，使用原生的组件，避免了重复制作轮子：
-1. Native Modules，这是 React Native 强大的一个扩展性，允许你通过简单的代码就能实现在 JS 里直接调用你自己的原生方法；
-2.Native Components，如果你自己实现了一些复杂的原生UI组件，而这些组件尚未被 React Native 支持，你可以利用 Native Components 快速把原生组件引入到 React Native 中并可以直接在 JS 里更新这些组件的状态。
+
+1. React Native 允许你通过 Native Modules 简单的代码就能实现在 JS 里直接调用你自己的原生方法；
+2. 如果你自己实现了一些复杂的原生UI组件，而这些组件尚未被 React Native 支持，你可以利用 Native Components 快速把原生组件引入到 React Native 中并可以直接在 JS 里更新这些组件的状态。
 3. 同一个项目中，React Native开发的界面和原生代码开发的界面可以丝滑自如的切换，我们完全可以在现有的原生项目中集成 RN 来开发一些特定的功能。
 

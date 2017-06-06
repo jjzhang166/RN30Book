@@ -4,6 +4,7 @@
 * [第一天 认识React Native](chapter1.md)
   * [1.1 React，React.js, React Native](chapter1/1-1.md)
   * [1.2 React Native的特点](chapter1/12-react-nativede-te-dian.md)
+  * [1.3 如何学习React Native](chapter1/13-ru-he-xue-xi-react-native.md)
 * [第二天 环境搭建](chapter2.md)
 * [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
