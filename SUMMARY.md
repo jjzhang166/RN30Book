@@ -2,7 +2,7 @@
 
 * [前言](README.md)
 * [第一天 认识React Native](chapter1.md)
-  * [1.1 React Native的特点](chapter1/11-react-nativede-te-dian.md)
+  * [1.1 React，React.js, React Native](chapter1/1-1.md)
 * [第二天 环境搭建](chapter2.md)
 * [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
