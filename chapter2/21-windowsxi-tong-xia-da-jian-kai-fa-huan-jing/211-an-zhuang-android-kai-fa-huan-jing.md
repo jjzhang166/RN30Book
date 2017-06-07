@@ -43,3 +43,16 @@ Android Studio 默认安装最新的 SDK，但是 React Native 需要安装 Andr
 ![](/assets/图2-4.png) 图2-4 安装SDK Build Tools
 
 都勾选好了，点击 "Apply" 按钮开始安装。
+
+###ANDROID_HOME环境变量
+打开控制面板 -> 系统和安全 -> 系统 -> 高级系统设置 -> 高级 -> 环境变量 -> 新建
+
+确保ANDROID_HOME环境变量正确地指向了你安装的Android SDK的路径。如图2-5所示，具体的路径可能和下图不一致，请自行确认。
+![](/assets/图2-5.png) 图2-5 配置Android环境变量
+
+###创建Android 模拟器
+在Android Studio工具栏上点击 AVD Mannager ![](/assets/AVD.png) 进入模拟器管理界面，创建模拟器，建议选择Android 6.0模拟器，ABI选择x86_64的模拟器效果最佳，如图2-6所示。选择完成点击"Finish"开始创建模拟器，创建完成可以打开。
+![](/assets/图2-6.png)图2-6 创建模拟器
+
+
+
