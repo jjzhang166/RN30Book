@@ -9,6 +9,7 @@
   * [2.1 Windows系统下搭建开发环境](chapter2/21-windowsxi-tong-xia-da-jian-kai-fa-huan-jing.md)
     * [2.1.1 安装依赖软件](chapter2/21-windowsxi-tong-xia-da-jian-kai-fa-huan-jing/211-an-zhuang-yi-lai-ruan-jian.md)
     * [2.1.2 安装Android开发环境](chapter2/21-windowsxi-tong-xia-da-jian-kai-fa-huan-jing/212-an-zhuang-android-kai-fa-huan-jing.md)
+    * [2.1.3 测试安装](chapter2/21-windowsxi-tong-xia-da-jian-kai-fa-huan-jing/213-ce-shi-an-zhuang.md)
 * [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
 * [第五天 FlexBox布局](chapter5.md)
