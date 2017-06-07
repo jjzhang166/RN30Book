@@ -11,3 +11,12 @@ react-native init RNCode30
 cd RNCode30
 react-native run-android
 ```
+如果能够正常运行，显示图2-7所示内容，表示环境安装成功。
+
+![](/assets/图2-7.png)图2-7 测试运行
+
+###修改项目
+
+现在你已经成功运行了项目，我们可以开始尝试动手改一改了:
+1. 使用你喜欢的文本编辑器打开index.android.js并随便改上几行;
+2. 按两下R键，或是用Menu键（快键键ctrl+M）打开开发者菜单，然后选择 Reload JS 就可以看到你的最新修改。
