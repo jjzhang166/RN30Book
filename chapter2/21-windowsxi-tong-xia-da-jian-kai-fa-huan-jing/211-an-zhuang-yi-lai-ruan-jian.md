@@ -23,14 +23,14 @@ choco install python2
 ```py
 choco install nodejs.install
 ```
-询问是否允许脚步时，输入“Y” 并按下Enter键。
+询问是否允许脚本时，输入“Y” 并按下Enter键。
 
 安装完 Node 后，多了一个 npm 指令，npm 是 node 的包管理和分发工具，可以通过 npm 构建React Native 项目。安装完 node 后建议设置npm 国内镜像以加速后面的过程。执行命令：
 ```py
 npm config set registry https://registry.npm.taobao.org --global
 npm config set disturl https://npm.taobao.org/dist --global
 ```
-###Yarn、React Native的命令行工具（react-native-cli）
+###安装Yarn、React Native的命令行工具（react-native-cli）
 Yarn 是 Facebook 提供的替代 npm 的工具，可以加速 node 模块的下载。React Native 的命令行工具用于执行创建、初始化、更新项目、运行打包服务（packager）等任务。
 执行命令:
 ```py
