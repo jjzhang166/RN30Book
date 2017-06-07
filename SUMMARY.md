@@ -7,7 +7,7 @@
   * [1.3 如何学习React Native](chapter1/13-ru-he-xue-xi-react-native.md)
 * [第二天 环境搭建](chapter2.md)
   * [2.1 Windows系统下搭建开发环境](chapter2/21-windowsxi-tong-xia-da-jian-kai-fa-huan-jing.md)
-    * [2.1.1 安装Android开发环境](chapter2/21-windowsxi-tong-xia-da-jian-kai-fa-huan-jing/211-an-zhuang-android-kai-fa-huan-jing.md)
+    * [2.1.2 安装Android开发环境](chapter2/21-windowsxi-tong-xia-da-jian-kai-fa-huan-jing/211-an-zhuang-android-kai-fa-huan-jing.md)
 * [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
 * [第五天 FlexBox布局](chapter5.md)
