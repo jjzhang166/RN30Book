@@ -4,4 +4,3 @@ React Native 开发环境虽然可以在Windows操作系统下搭建，但不能
 
 建议读者优先选择 Windows 10 操作系统。React Native对 Windows10 的支持要比 Windows7 要好。
 
-React Native
