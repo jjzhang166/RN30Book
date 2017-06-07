@@ -31,7 +31,7 @@ Android Studio 默认安装最新的 SDK，但是 React Native 需要安装 Andr
 在Android Studio的欢迎界面中选择Configure | SDK Manager，如图2-2所示。或者进入 Android Studio后， 选择"Preferences" 菜单依次进入 Appearance & Behavior → System Settings → Android SDK。
 ![](/assets/图2-2.png)图2-2 选择SDK Manager
 
-如图2-3所示，勾选 "Show Package Details" 确保以下选项被勾选：
+进入SDK界面，如图2-3所示，勾选 "Show Package Details" 确保以下选项被勾选：
 * Google APIs
 * Android SDK Platform 23
 * Intel x86 Atom_64 System Image
@@ -47,7 +47,7 @@ Android Studio 默认安装最新的 SDK，但是 React Native 需要安装 Andr
 ###ANDROID_HOME环境变量
 打开控制面板 -> 系统和安全 -> 系统 -> 高级系统设置 -> 高级 -> 环境变量 -> 新建
 
-确保ANDROID_HOME环境变量正确地指向了你安装的Android SDK的路径。如图2-5所示，具体的路径可能和下图不一致，请自行确认。
+确保ANDROID_HOME环境变量正确地指向了你安装的Android SDK的路径。如图2-5所示，具体的路径可能和图2-5不一致，请自行确认。
 ![](/assets/图2-5.png) 图2-5 配置Android环境变量
 
 ###创建Android 模拟器
