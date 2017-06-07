@@ -13,6 +13,7 @@
   * [2.2 Mac系统下 React Native 开发环境搭建 ](chapter2/22-macxi-tong-xia-react-native-kai-fa-huan-jing-da-jian.md)
     * [2.2.1 搭建iOS调试环境](chapter2/22-macxi-tong-xia-react-native-kai-fa-huan-jing-da-jian/221-peizhi-ios-diao-shi-huan-jing.md)
     * [2.2.2 搭建Android调试环境](chapter2/22-macxi-tong-xia-react-native-kai-fa-huan-jing-da-jian/222-pei-zhi-android-diao-shi-huan-jing.md)
+  * [2.3 代码编辑环境搭建](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian.md)
 * [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
 * [第五天 FlexBox布局](chapter5.md)
