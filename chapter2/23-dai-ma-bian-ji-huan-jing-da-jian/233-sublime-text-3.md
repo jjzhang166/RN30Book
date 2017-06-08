@@ -2,6 +2,8 @@
 
 Sublime Text 3 是一款广泛使用的代码编辑器，支持 Windows、Mac OS X、Linux 三大桌面平台，它是付费应用，但目前可以无限期的试用。它支持多种编程语言的语法高亮、拥有优秀的代码自动完成功能，还拥有代码片段（Snippet ）的功能，可以将常用的代码片段保存起来，在需要时随时调用，极大的提高编程效率。
 
+下载地址：http://www.sublimetext.com/
+
 Sublime Text 3 强大功能的支撑在于它的插件机制，通过 Package Control 功能，开发者可以安装各种需要的插件，默认情况下，Sublime Text 3 没有集成 Package Control，我们需要自己安装。
 
 ###安装Package Control

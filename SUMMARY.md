@@ -17,6 +17,7 @@
     * [2.3.1 Atom＋Nuclide](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian/231-atomnuclide.md)
     * [2.3.2 WebStorm](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian/232-webstorm.md)
     * [2.3.3 Sublime Text 3](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian/233-sublime-text-3.md)
+    * [2.3.4 Visual Studio Code](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian/234-visual-studio-code.md)
 * [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
 * [第五天 FlexBox布局](chapter5.md)
