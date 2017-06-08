@@ -18,6 +18,7 @@
     * [2.3.2 WebStorm](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian/232-webstorm.md)
     * [2.3.3 Sublime Text 3](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian/233-sublime-text-3.md)
     * [2.3.4 Visual Studio Code](chapter2/23-dai-ma-bian-ji-huan-jing-da-jian/234-visual-studio-code.md)
+  * [2.4 熟悉项目](chapter2/24-shu-xi-xiang-mu-jie-gou.md)
 * [第三天 状态机和属性及组件的生命周期](chapter3.md)
 * [第四天 View组件](chapter4.md)
 * [第五天 FlexBox布局](chapter5.md)

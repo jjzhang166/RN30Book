@@ -18,5 +18,7 @@ Sublime Text 3 强大功能的支撑在于它的插件机制，通过 Package Co
 
 在 Package Control 对话框中选择 Package Control:Install Packages 并在弹出的对话框中输入 Babel，即可找到 babel-sublime，如图2-11。
 ![](/assets/图2-11.png)图2-11 安装Babel
+安装完成之后，需要启用它，如图2-12所示菜单操作即可：
+![](/assets/图2-12.png) 图2-12 启用Babel
 
 react-native-snippets 插件同样通过 Package Control 进行安装，在 Install Package 对话框中搜索 react-native-snippets 安装即可。
