@@ -1,4 +1,4 @@
-##2.3.4 Visual Studio Code
+##1.5.4 Visual Studio Code
 
 Visual Studio Code 是微软推出的一个轻量级的开源 Web 集成开发环境，支持超过 30 种语言的开发，同时支持 Windows、Mac OS X、Linux 三大桌面平台。
 

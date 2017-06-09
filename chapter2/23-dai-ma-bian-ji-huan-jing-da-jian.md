@@ -1,4 +1,4 @@
-#2.3 代码编辑环境搭建
+#1.5 代码编辑环境搭建
 React Native 的开发基本上是 Javascript ＋ 系统原生开发语言（Java，Objective-C，Swift），原生语言的开发所用的 IDE (系统集成开发环境)没有多余的选择，Android 平台使用 Android Studio，iOS 平台只能使用 Xcode。而开发 Javascript 的 IDE 选择就很多。React Native并没有强制要求适用哪款开发环境，它的代码可以使用任何一款纯文本处理器处理编辑。
 
 如果你使用记事本开发 React Native 效率肯定慢很多，我们一般对 IDE 要求都是能够支持识别 Javascript 语法，识别 JSX 和 React Native API 的智能提醒。

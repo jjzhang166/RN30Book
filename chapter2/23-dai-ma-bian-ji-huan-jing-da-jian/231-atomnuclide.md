@@ -1,4 +1,4 @@
-##2.3.1 Atom＋Nuclide
+##1.5.1 Atom＋Nuclide
 
 Atom 是由 Github 打造的下一代编程开发利器，支持 Windows、Mac、Linux 三大桌面平台，免费且开源。Atom 支持各种编程语言的代码高亮，同时具备强大的代码补全功能，能够极大的提高编程效率，Atom 本质上是一个文本编辑器，而不是一个 IDE，因此在用来开发 React Native 时需要配合 Nuclide 一起使用。
 

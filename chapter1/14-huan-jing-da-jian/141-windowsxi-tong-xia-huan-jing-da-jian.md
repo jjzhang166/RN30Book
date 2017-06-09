@@ -1,0 +1,126 @@
+##1.4.1 Windows系统下 React Native 开发环境搭建 
+
+React Native 前需要安装 Node，Python2。
+
+###安装Chocolatey
+Chocolatey并不是 React Native必须的软件，它是一个Windows上的包管理器，只需要一条简单的命令，就可以完成软件的安装、更新和卸载等操作。使用这个软件可以方便的安装 Node 和 Python2。别单独去对应的官方网站下载安装即可。
+
+以管理员的身份来运行命令提示符窗口，在命令行中输入:
+```py
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+```
+Chocolatey 的网站可能在国内访问困难，导致上述安装命令无法正常完成。 如果你实在装不上这个工具，也不要紧。所需的 Python2 和 Node 你可以分别单独去对应的官方网站下载安装即可。
+
+###安装Python2
+安装完 Chocolatey，可以在命令提示符窗口，使用Chocolatey来安装Python2，在命令行中输入：
+```py
+choco install python2
+```
+目前Python最新版本是3.X ，但是并不兼容 Python2。目前React Native 不支持 Python 3版本。
+
+###安装Node
+使用Chocolatey来安装Node
+```py
+choco install nodejs.install
+```
+询问是否允许脚本时，输入“Y” 并按下Enter键。
+
+安装完 Node 后，多了一个 npm 指令，npm 是 node 的包管理和分发工具，可以通过 npm 构建React Native 项目。安装完 node 后建议设置npm 国内镜像以加速后面的过程。执行命令：
+```py
+npm config set registry https://registry.npm.taobao.org --global
+npm config set disturl https://npm.taobao.org/dist --global
+```
+###安装Yarn、React Native的命令行工具（react-native-cli）
+Yarn 是 Facebook 提供的替代 npm 的工具，可以加速 node 模块的下载。React Native 的命令行工具用于执行创建、初始化、更新项目、运行打包服务（packager）等任务。
+执行命令:
+```py
+npm install -g yarn react-native-cli
+```
+安装完 yarn 后同理也要设置镜像源：
+```py
+yarn config set registry https://registry.npm.taobao.org --global
+yarn config set disturl https://npm.taobao.org/dist --global
+```
+
+###安装JDK
+
+搭建 Android 开发环境需要 Java Development Kit [JDK] 1.8或更高版本。你可以在命令行中输入 javac -version 来查看你当前安装的JDK版本。如果版本不合要求，则可以到官网上下载或百度搜索安装包。
+
+JDK官网下载地址：
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+###安装Android Studio
+
+React Native目前需要 Android Studio2.0 或更高版本。Android Studio包含了运行和测试 React Native 应用所需的 Android SDK 和模拟器。
+
+下载地址：https://developer.android.google.cn/studio/index.html
+
+第一次安装的时候，选择 Custom 选项如图2-1所示
+
+![](/assets/图2-1.png)图2-1自定义安装
+
+勾选以下选项：
+* Android SDK
+* Android SDK Platform
+* Performance (Intel ® HAXM)
+* Android Virtual Device
+
+注意:
+* 除非特别注明，请不要改动安装过程中的选项。比如Android Studio默认安装了 Android Support Repository，而这也是React Native必须的（否则在react-native run-android 时会报 appcompat-v7 包找不到的错误）。
+* 确定所有安装都勾选了，尤其是 Android SDK 和 Android Device Emulator。
+
+Android Studio 默认安装最新的 SDK，但是 React Native 需要安装 Android 6.0 (Marshmallow) SDK 。
+在Android Studio的欢迎界面中选择Configure | SDK Manager，如图2-2所示。或者进入 Android Studio后， 选择"Preferences" 菜单依次进入 Appearance & Behavior → System Settings → Android SDK。
+![](/assets/图2-2.png)图2-2 选择SDK Manager
+
+进入SDK界面，如图2-3所示，勾选 "Show Package Details" 确保以下选项被勾选：
+* Google APIs
+* Android SDK Platform 23
+* Intel x86 Atom_64 System Image
+* Google APIs Intel x86 Atom_64 System Image
+
+![](/assets/图2-3.png)图2-3 安装SDK23
+
+然后点击 SDK Tools选项卡，继续勾选"Show Package Details"，展开"Android SDK Build Tools" 确保"Android SDK Build-Tools 23.0.1" 被选中，如图2-4所示。
+![](/assets/图2-4.png) 图2-4 安装SDK Build Tools
+
+都勾选好了，点击 "Apply" 按钮开始安装。
+
+###ANDROID_HOME环境变量
+打开控制面板 -> 系统和安全 -> 系统 -> 高级系统设置 -> 高级 -> 环境变量 -> 新建
+
+确保ANDROID_HOME环境变量正确地指向了你安装的Android SDK的路径。如图2-5所示，具体的路径可能和图2-5不一致，请自行确认。
+![](/assets/图2-5.png) 图2-5 配置Android环境变量
+
+###创建Android 模拟器
+在Android Studio工具栏上点击 AVD Mannager ![](/assets/AVD.png) 进入模拟器管理界面，创建模拟器，建议选择Android 6.0模拟器，ABI选择x86_64的模拟器效果最佳，如图2-6所示。选择完成点击"Finish"开始创建模拟器，创建完成可以打开。
+![](/assets/图2-6.png)图2-6 创建模拟器
+
+
+###测试安装
+
+安装完成后，激动人心的时刻来的，我们可以在命令行中创建 React Native 项目了。
+执行命令：
+```py
+react-native init RNCode30
+```
+上述命令，会初始化一个名叫“RNCode30”的项目。该命令需要一段时间。请不要在命令行默认的System32目录中init项目，会有各种权限限制导致不能运行。
+进入项目中，运行 Android 程序，执行如下命令。
+```gradle
+cd RNCode30
+react-native run-android
+```
+如果能够正常运行，显示图2-7所示内容，表示环境安装成功。
+
+![](/assets/图2-7.png)图2-7 测试运行
+
+运行的时候会新打开一个命令窗口，这其实是打开调试环境的服务，如果不小心关闭了，需要执行 "react-native start" 重新打开。
+
+###修改项目
+
+现在你已经成功运行了项目，我们可以开始尝试动手改一改了:
+1. 使用你喜欢的文本编辑器打开index.android.js并随便改上几行;
+2. 按两下R键，或是用Menu键（快键键ctrl+M）打开开发者菜单，然后选择 Reload JS 就可以看到你的最新修改。
+
+
+
