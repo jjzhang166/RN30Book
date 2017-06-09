@@ -7,7 +7,7 @@
   * [1.3 如何学习React Native](chapter1/1-3.md)
   * [1.4 环境搭建](chapter1/1-4.md)
     * [1.4.1 Windows系统下环境搭建](chapter1/1-4/1-4-1.md)
-    * [1.4.2 Mac系统下React Native开发环境搭建](chapter1/1-4-2.md)
+    * [1.4.2 Mac系统下React Native开发环境搭建](chapter1/1-4/1-4-2.md)
   * [1.5 代码编辑环境搭建](chapter1/1-5.md)
     * [1.5.1 Atom＋Nuclide](chapter1/1-5/1-5-1.md)
     * [1.5.2 WebStorm](chapter1/1-5/1-5-2.md)

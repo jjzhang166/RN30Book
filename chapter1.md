@@ -1,4 +1,4 @@
-#认识React Native
+#认识 React Native
 
 毫无疑问，你肯定急于开始学习`React Native`(简写为RN)开发。毕竟，你可能是忙碌的程序员。然而，在我们开始在实际编程前，我们需要先认识下`React Native`。
 
