@@ -17,6 +17,7 @@
   * [1.7 实际项目中入口文件处理](chapter1/1-7.md)
   * [总结](chapter1/zong-jie.md)
 * [第二天 状态机和属性及组件的生命周期](chapter2.md)
+  * [2.1 React Native 设计思路](chapter2/21-react-native-she-ji-si-lu.md)
 * [第三天 View组件](chapter3.md)
 * [第四天 FlexBox布局](chapter4.md)
 * [第五天 Text组件](chapter5.md)
